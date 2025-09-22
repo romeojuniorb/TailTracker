@@ -1,10 +1,19 @@
-# Animal Shelter Database
-While there are hundreds of animal shelters across Canada, accessibility varies greatly by geography and population density. A simple lookup directory is useful, but a data-driven approach can identify underserved areas, optimize shelter placement, and improve resource allocation.
+# Animal Shelter Data Analysis
 
-**Objective**
-1. Build a searchable shelter directory
-2. Quantify shelter accessibility by population.
-3. Use predictive modeling and optimization to identify where additional shelters could maximize accessibility.
+This project explores the **Petfinder Animal Shelters dataset** from Kaggle to understand the distribution of animal shelters across North America, with a focus on **Canadian shelters**.
 
-**Data**
-The dataset used is from ["aaronschlegel/petfinder-animal-shelters-database" ](https://www.kaggle.com/datasets/aaronschlegel/petfinder-animal-shelters-database)
+## Project Overview
+- **Dataset**: [Petfinder Animal Shelters (Kaggle)](https://www.kaggle.com/datasets/aaronschlegel/petfinder-animal-shelters-database)  
+- **Tools Used**: Python, Pandas, Matplotlib
+
+## Key Steps
+1. **Data Loading** – Downloaded the dataset with `kagglehub` and loaded it into Pandas.  
+2. **Data Cleaning** – Checked for missing values (latitude/longitude and zip codes are complete).  
+3. **Exploratory Analysis** –  
+   - Visualized the top 10 states and cities by number of shelters.  
+   - Filtered shelters by country.  
+4. **Canadian Focus** – Subset created for Canadian shelters to enable country-specific insights.
+
+## Results
+- Identified which states and cities have the highest shelter counts.  
+- Created a clean dataset of Canadian shelters for further analysis or mapping.
